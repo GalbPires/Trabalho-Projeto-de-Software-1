@@ -1,0 +1,20 @@
+SISTEMA ACADÊMICO RESPOSTAS
+
+I ) Identifique pelo menos 4 classes para este sistema.
+	R: Aluno, Professor, Curso, Disciplina, Cordenador
+
+II) Identifique dentre as classes que fazem parte do sistema, pelo menos um relacionamento de heranca.
+	R: Cordenador é um Professor. 
+	
+III) Identifique para uma das classes do item anterior, pelo menos 4 atributos, indicando seu tipo e
+visibilidade.
+	R: ALUNO contém -> private Nome; private data_nascimento; private nacionalidade, private naturalidade.
+	
+IV) Qual  ´e o relacionamento entre as classes identificadas para o sistema?
+	R: Curos (1,n) X (1,n) Disciplina; Coordenador (N) X (N) Professor; Aluno (N) X (N) Curso.
+
+V) Identifique entre as classes que fazem parte do sistema pelo menos um relacionamento de agregaçao.
+	R: Curso -> Aluno, profressor. O curso é um todo, e o aluno e o professor fazerm parte deste todo, ou seja o curso. 
+
+VI) Identifique entre as classes que fazem parte do sistema pelo menos um relacionamento de composi¸c~ao.
+	R: Coordenador -> professor, Na agregação as partes não existem sem um todo. Então o coordenador não exite sem um professor.
